@@ -1,7 +1,9 @@
+import HeroSection from "@/components/HeroSection";
+
 export default function Home() {
   return (
-    <>
-      <h1>This is main page</h1>
-    </>
+    <main className="min-h-screen bg-black/[.96] antialiased bg-grid-white/[.02]">
+      <HeroSection />
+    </main>
   );
 }
